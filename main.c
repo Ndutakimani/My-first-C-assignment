@@ -2,12 +2,14 @@
 
 int main(void)
 {
-int a , b , c;
+int a , b , c , d;
 printf("input first number :");
 scanf("%d" , &a);
 printf("input second number:");
 scanf("%d" , &b);
-c = a + b;
-printf("%d + %d = %d\n" , a,b,c);
+printf("input third number:");
+scanf("%d" , &c);
+d = a + b + c;
+printf("%d + %d + %d = %d\n" , a,b,c,d);
 return 0;
 }
